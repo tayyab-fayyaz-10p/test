@@ -1,0 +1,363 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="AddressNotFound" xml:space="preserve">
+    <value>Address not found.</value>
+  </data>
+  <data name="AlreadyExist" xml:space="preserve">
+    <value>{0} already exists.</value>
+  </data>
+  <data name="ChangeRequestFailed" xml:space="preserve">
+    <value>Change Request failed!</value>
+  </data>
+  <data name="DataDeleteFailed" xml:space="preserve">
+    <value>Due to an error, data could not be deleted.</value>
+  </data>
+  <data name="DataInsertFailed" xml:space="preserve">
+    <value>Due to an error, data could not be added.</value>
+  </data>
+  <data name="DataUpdateFailed" xml:space="preserve">
+    <value>Due to an error, data could not be updated.</value>
+  </data>
+  <data name="DeletedSuccess" xml:space="preserve">
+    <value>{0} deleted successfully!</value>
+  </data>
+  <data name="DeviceInActive" xml:space="preserve">
+    <value>your device is Inactive please contact administrator</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Error</value>
+  </data>
+  <data name="InsertedSuccess" xml:space="preserve">
+    <value>{0} inserted successfully!</value>
+  </data>
+  <data name="InvalidAttendance" xml:space="preserve">
+    <value>Invalid Attendance Found</value>
+  </data>
+  <data name="InvalidLOVGroup" xml:space="preserve">
+    <value>Invalid LOV group.</value>
+  </data>
+  <data name="InvalidObject" xml:space="preserve">
+    <value>{0} is invalid.</value>
+  </data>
+  <data name="InvalidPermission" xml:space="preserve">
+    <value>Invalid permission.</value>
+  </data>
+  <data name="InvalidReport" xml:space="preserve">
+    <value>Invalid report.</value>
+  </data>
+  <data name="LOVExists" xml:space="preserve">
+    <value>LOV with same key or value already exists.</value>
+  </data>
+  <data name="NoContent" xml:space="preserve">
+    <value>No content found!</value>
+  </data>
+  <data name="NotFound" xml:space="preserve">
+    <value>{0} not found!</value>
+  </data>
+  <data name="ObjectRequired" xml:space="preserve">
+    <value>{0} is required.</value>
+  </data>
+  <data name="OneTimePinInvalid" xml:space="preserve">
+    <value>Incorrect OTP, please enter correct value.</value>
+  </data>
+  <data name="OneTimePinLength" xml:space="preserve">
+    <value>One Time Pin should be 4 characters long</value>
+  </data>
+  <data name="OneTimePinRequired" xml:space="preserve">
+    <value>Please provide one time pin value</value>
+  </data>
+  <data name="OneTimePinSentToEmail" xml:space="preserve">
+    <value>Your OTP has expired. Check your email or SMS for the updated OTP.</value>
+  </data>
+  <data name="OneTimePinVerified" xml:space="preserve">
+    <value>OTP varification is succeded</value>
+  </data>
+  <data name="RecordsDeleted" xml:space="preserve">
+    <value>{0} records deleted!</value>
+  </data>
+  <data name="RecordsUpdated" xml:space="preserve">
+    <value>{0} records updated!</value>
+  </data>
+  <data name="RegionalHierarchyFound" xml:space="preserve">
+    <value>Another hierarchy found</value>
+  </data>
+  <data name="RegionalHierarchyInvalid" xml:space="preserve">
+    <value>Invalid hierarchy found</value>
+  </data>
+  <data name="RegionalHierarchyUnauthorized" xml:space="preserve">
+    <value>Unauthorized. User does not exists in your Hierarchy</value>
+  </data>
+  <data name="RequiredData" xml:space="preserve">
+    <value>required data is missing</value>
+  </data>
+  <data name="SentMailNotFound" xml:space="preserve">
+    <value>Sent mail not found.</value>
+  </data>
+  <data name="Successful" xml:space="preserve">
+    <value>success</value>
+  </data>
+  <data name="SuccessResult" xml:space="preserve">
+    <value>Success Result</value>
+  </data>
+  <data name="UnAuthrized" xml:space="preserve">
+    <value>You are not authorize to perform this operation.</value>
+  </data>
+  <data name="UnChanged" xml:space="preserve">
+    <value>Object is un changed!</value>
+  </data>
+  <data name="UpdatedSuccess" xml:space="preserve">
+    <value>{0} updated successfully!</value>
+  </data>
+  <data name="UserAccountLocked" xml:space="preserve">
+    <value>Your account has been locked. Please contact super admin</value>
+  </data>
+  <data name="UserAlreadyExists" xml:space="preserve">
+    <value>User already exists.</value>
+  </data>
+  <data name="UserAssignPasswordSuccessfully" xml:space="preserve">
+    <value>Password assign successfully</value>
+  </data>
+  <data name="UserDeleted" xml:space="preserve">
+    <value>Your account has been deleted. Please contact your administrator</value>
+  </data>
+  <data name="UserEmailNotConfirm" xml:space="preserve">
+    <value>User did not confirm email.</value>
+  </data>
+  <data name="UserFirstAndLastName" xml:space="preserve">
+    <value>Only alphabetic characters are allowed in firstname and lastname fields</value>
+  </data>
+  <data name="UserInActivation" xml:space="preserve">
+    <value>Your account is Inactive please contact administrator</value>
+  </data>
+  <data name="UserInactive" xml:space="preserve">
+    <value>User is inactive.</value>
+  </data>
+  <data name="UserIncorrectOldPassword" xml:space="preserve">
+    <value>Incorrect old password</value>
+  </data>
+  <data name="UserInvalidEmail" xml:space="preserve">
+    <value>Invalid Email address.</value>
+  </data>
+  <data name="UserInvalidPassword" xml:space="preserve">
+    <value>Invalid Password</value>
+  </data>
+  <data name="UserInvalidRole" xml:space="preserve">
+    <value>Invalid Role.</value>
+  </data>
+  <data name="UserInvalidToken" xml:space="preserve">
+    <value>Invalid Token</value>
+  </data>
+  <data name="UserInvalidUser" xml:space="preserve">
+    <value>Invalid user</value>
+  </data>
+  <data name="UserInvalidUserName" xml:space="preserve">
+    <value>Invalid username</value>
+  </data>
+  <data name="UserInvalidUserNameOrImeiNumber" xml:space="preserve">
+    <value>The username or IMEI number is incorrect</value>
+  </data>
+  <data name="UserInvalidUserNameOrPassword" xml:space="preserve">
+    <value>The email/mobile number or password is incorrect</value>
+  </data>
+  <data name="UserAccountNotExistCreateNew" xml:space="preserve">
+    <value>Account doesn’t exist. Kindly register a new account</value>
+  </data>
+  <data name="UserAccountNotExist" xml:space="preserve">
+    <value>Account doesn't exist</value>
+  </data>
+  <data name="UserIvalidGrant" xml:space="preserve">
+    <value>Invalid_Grant</value>
+  </data>
+  <data name="UserNameAlreadyExists" xml:space="preserve">
+    <value>UserName Already Exists</value>
+  </data>
+  <data name="UserNewPasswordAndOldPasswordMatch" xml:space="preserve">
+    <value>New password and old password must not be same</value>
+  </data>
+  <data name="UserPasswordChangeSuccessfully" xml:space="preserve">
+    <value>Password change successfully</value>
+  </data>
+  <data name="UserPasswordLength" xml:space="preserve">
+    <value>Password should be 6 characters long</value>
+  </data>
+  <data name="UserPasswordNotMatch" xml:space="preserve">
+    <value>New password and re-type password are not match</value>
+  </data>
+  <data name="UserSignInAttemptsLeft" xml:space="preserve">
+    <value>Invalid credentials. You have {0} more attempt(s) before your account gets locked out</value>
+  </data>
+  <data name="UserUnAuthorized" xml:space="preserve">
+    <value>You are not authorized to login. Please contact your administrator</value>
+  </data>
+  <data name="UserUnlockSuccessful" xml:space="preserve">
+    <value>User has been unlocked successfully</value>
+  </data>
+  <data name="UserUnusualAttempts" xml:space="preserve">
+    <value>Your account has been locked due to unusual signin attempts</value>
+  </data>
+  <data name="UserVerifiedUserName" xml:space="preserve">
+    <value>Username varification is succeded</value>
+  </data>
+  <data name="DateInvalidDate" xml:space="preserve">
+    <value>Invalid Date Format</value>
+  </data>
+  <data name="DateInvalidDateTime" xml:space="preserve">
+    <value>Invalid DateTime Format</value>
+  </data>
+  <data name="CsvReportCreated" xml:space="preserve">
+    <value>CSV Report created successfully</value>
+  </data>
+  <data name="CsvReportCreationFailed" xml:space="preserve">
+    <value>CSV Report creation failed</value>
+  </data>
+  <data name="PdfReportCreated" xml:space="preserve">
+    <value>PDF Report created successfully</value>
+  </data>
+  <data name="PdfReportCreationFailed" xml:space="preserve">
+    <value>PDF Report creation failed</value>
+  </data>
+  <data name="ApplicationApproved" xml:space="preserve">
+    <value>Approved</value>
+  </data>
+  <data name="ApplicationExsits" xml:space="preserve">
+    <value>Exsits</value>
+  </data>
+  <data name="ApplicationRefer" xml:space="preserve">
+    <value>SoftReject</value>
+  </data>
+  <data name="ApplicationReject" xml:space="preserve">
+    <value>HardReject</value>
+  </data>
+  <data name="BPMError" xml:space="preserve">
+    <value>BPM Error: {0}</value>
+  </data>
+  <data name="AlreadyExistOrEmpty" xml:space="preserve">
+    <value>{0} already exists or empty.</value>
+  </data>
+  <data name="PayrollCurrentDateError" xml:space="preserve">
+    <value>Payroll cannot be processed for current date.</value>
+  </data>
+  <data name="UserFreeze" xml:space="preserve">
+    <value>Your account is Inactive please contact administrator</value>
+  </data>
+  <data name="UserBlocked" xml:space="preserve">
+    <value>Your account has been blocked. Please contact HR</value>
+  </data>
+</root>
